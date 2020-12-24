@@ -4,8 +4,7 @@
 #PROGRAMME DEVELOPPE EN C SOUS ENVIRONNEMENT UNIX
 #2018/2019
 #Authors : Bawilu-Mafuta Beker, 3A ESIEA PARIS
-#with Kamalakran Risan, 3A ESIEA PARIS
-#//Tout droits réservés
+with Kamalakran Risan, 3A ESIEA PARIS
 
 
 #TANK BATTLE est un jeu de tir du style des Shoot-Em-Up en 2D
