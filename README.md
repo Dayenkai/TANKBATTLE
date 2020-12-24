@@ -17,7 +17,7 @@ with Kamalakran Risan, 3A ESIEA PARIS
 
 LANCEMENT DU PROGRAMME :
 
-#./Game map Tank-Joueur Tank-ennemi
+./Game map Tank-Joueur Tank-ennemi
 
 #Tout ce qui concerne le choix du terrain (map) se trouve dans le dossier "Map" du projet.
 #Le design du tank du joueur est à choisir parmi les véhicules se trouvant dans le dossier "Tanks"
