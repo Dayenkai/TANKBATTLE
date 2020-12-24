@@ -7,7 +7,7 @@
 with Kamalakran Risan, 3A ESIEA PARIS
 
 
-#TANK BATTLE est un jeu de tir du style des Shoot-Em-Up en 2D
+#TANK BATTLE est un jeu de tir du style des Shoot-Em-Up en 2D, jouable via un terminal.
 #Le joueur incarne un tank, par lequel il doit se défendre et défendre un petit oisillon jaune en faisant face à des vagues de tanks ennemis 
 #dans un territoire concu pour les escarmouches. Chaque vague fait apparaître différents types d'ennemis, 
 #laissant le joueur face à une diversité d'agression, lequel devra s'adapter en disposant à sa guise de 
