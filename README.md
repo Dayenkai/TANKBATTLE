@@ -25,13 +25,13 @@ LANCEMENT DU PROGRAMME :
 
 INDICATIONS/PROBLEMES :
 
-#-> Le jeu utilise des caractères non alphanumériques de la table ascii, dont la plupart ne sont pas visible
-#via l'encodage standard UTF-8. Il faut rendre donc un encodage de type "Occidental - IBM850" ou similaire dans les paramètres
-#du terminal, la seule interface graphique du jeu.
+-> Le jeu utilise des caractères non alphanumériques de la table ascii, dont la plupart ne sont pas visible
+via l'encodage standard UTF-8. Il faut rendre donc un encodage de type "Occidental - IBM850" ou similaire dans les paramètres
+du terminal, la seule interface graphique du jeu.
 
-#-> La taille de la map ne s'adapte pas à la taille de l'écran, il faut aller en full screen afin d'éviter les désagréables décalages d'objets. 
+-> La taille de la map ne s'adapte pas à la taille de l'écran, il faut aller en full screen afin d'éviter les désagréables décalages d'objets. 
 
-#-> L'apparition de quelques erreurs peuvent survenir du fait que certaines fonctions utilisent des librairies qui ne sont pas nécessairement installés.
+-> L'apparition de quelques erreurs peuvent survenir du fait que certaines fonctions utilisent des librairies qui ne sont pas nécessairement installés.
 Voici la liste des librairies à se procurer pour assurer un bon fonctionnement du jeu :
 
 	Librairies sur Ubuntu-Debian :
