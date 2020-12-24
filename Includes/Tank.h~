@@ -1,0 +1,125 @@
+#ifndef HARAKIRI
+#define HARAKIRI
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <string.h>
+#include <time.h>
+#include <curses.h>
+#include <ncurses.h>
+#include	<termios.h>
+#include	<unistd.h>
+#include	<fcntl.h>
+#include	<linux/keyboard.h>
+
+#define	clear_screen()	printf("\033[H\033[J")
+#define	gotoxy(x,y)		printf("\033[%d;%dH", (x), (y))
+#define	white_mode()	printf("\033[37m");
+#define	red_mode()		printf("\033[31m");
+#define	cyan_mode()		printf("\033[36m");
+#define	yellow_mode()	printf("\033[33m");
+#define	green_mode()	printf("\033[32m");
+
+typedef struct Tank TANK;
+typedef struct OBUS OBUS;
+typedef struct Piou_Piou PIOUPIOU;
+typedef struct MAP MAP;
+typedef struct BODY BODY;
+
+struct BODY
+{
+	char **Tab;
+	int	size_x;
+	int	size_y;
+	int 	cannon_pos_x;
+	int 	cannon_pos_y;
+	BODY 	*Next_Body;
+};
+
+struct OBUS
+{
+	int	previous_x;
+	int	previous_y;
+	int	x;
+	int	y;
+	int	type;
+	int	time;
+	int	ally_or_ennemy;
+	char	direction;
+	OBUS	*Obus_suivant;
+};
+
+struct Tank
+{
+	int who;
+	int ally_or_ennemy;
+	int direction;
+	int type;
+	int pos_x;
+	int pos_y;
+	int new_x;
+	int new_y;
+	OBUS *Obus_suivant;
+	TANK *Next_Ennemy;
+	int Time_Move;
+	int Previous_Body_Number;
+	int Moving_State;
+	int Firing_State;
+	int Life;
+};
+
+struct Piou_Piou
+{
+	char	Body;
+	int 	x;
+	int 	y;
+	int	Move_State;
+	int	Life;
+};
+
+struct MAP
+{
+	char **Tab;
+	int x;
+	int y;
+};
+
+/* Prototype fonctions*/
+
+/* output.c */
+
+void	Intro();
+void	Generic_Menu();
+void	Menu();
+void	Menu_mode_selected(int mode);
+void	Menu_Exit_Game();
+void	error_opening_file_message();
+void	print_tab(char **tab, int width);
+
+/* data.c */
+
+void	Get_Data();
+void	Open_File(char *str, FILE **file);
+void	Get_Map_Info(MAP *map, FILE **file);
+void	Find_Size_Map(MAP *map, FILE **file);
+void	Alloc_Tab(char ***tab, int width, int length);
+void	Copy_Map_to_Tab(MAP *map, FILE **file);
+
+/* special_fonctions.c */
+
+char 	key_pressed();
+char 	key_pressed_blocked();
+int	my_strlen(char str);
+void	Game_Master(char **str);
+void	File_Open(char *str, FILE **file);
+void	Alloc_Mab(char ***str, int x, int y);
+void	Alloc_Tank(char ***str, int x, int y);
+void	Copy_Chars_To_Tabs(BODY *tank, FILE **tank_file, int size_x, int size_y, int size_xprime, int size_yprime, int type);
+void	Copy_Chars_To_Tabs_One_Side(BODY *tank, FILE **tank_file, int size_x, int size_y, int Number, int type) ;
+char 	convert(MAP map);
+//	void	Erase_Obus(OBUS *element, OBUS *previous, TANK *tank);
+
+#endif

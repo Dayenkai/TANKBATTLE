@@ -1,0 +1,42 @@
+#include	"../Includes/Tank.h"
+
+void		Add_Tank(TANK *tank, int which_side, int type)
+{
+	TANK *element;
+	int	i;
+
+	i = 0;
+	element = tank;
+	while (element->Next_Ennemy != NULL)
+		element = element->Next_Ennemy;
+	element->Next_Ennemy = malloc(sizeof(TANK));
+	element = element->Next_Ennemy;
+	element->type = type;
+	element->ally_or_ennemy = which_side;
+	element->Next_Ennemy = NULL;
+	element->pos_x = 21;
+	element->pos_y = 110;
+}	
+	
+
+void	create_ennemy(TANK *Tank, MAP *map, BODY *Body, int which_side, int type)
+{
+	Add_Tank(Tank, which_side, 0);
+	while (Tank->Next_Ennemy != NULL)
+		Tank = Tank->Next_Ennemy;
+	put_tab_in_map(Tank, map, Body);
+	print_tank_on_screen(Body, Tank, Tank->pos_x, Tank->pos_y);
+}
+
+void	check_ennemy(MAP *map, TANK *ennemy)
+{
+	TANK 	*Actual;
+	TANK	*Previous;
+	int	temp;
+	
+	Actual = ennemy->Next_Ennemy;
+	Previous = Actual;
+	/*while (Actual != NULL)
+		{
+		}*/
+}

@@ -1,0 +1,25 @@
+//printf("\033[31mBonjour les gens !\n\033[0m");
+	/*int i,j,k = 0;
+
+	puts("\n ___ TABLEAU DECIMAL ___");
+	puts("\n    0 1 2 3 4 5 6 7 8 9");
+	for(i = 0; i < 26; i++) {
+	printf("\n %2d  ",i);
+	for(j = 0; j < 10; j++, k++)
+	printf("%c ", k != 7 && k!=8 && k!= 9 && k !=10 && k!=13 && k < 256
+	? k : ' ');
+	}
+	puts("\n __________________");
+	return 0;*/
+	
+	
+	/*if (number != number_actual)
+						if (map->Tab[x+player->pos_x][y+player->pos_y] == 'e' || map->Tab[x+player->pos_x][y+player->pos_y] == 'r' || map->Tab[x+player->pos_x][y+player->pos_y] == 'z' || map->Tab[x+player->pos_x][y+player->pos_y] == 'k')
+							{
+								if (temp == 0)
+									{
+										player->new_x = x+player->pos_x;
+										player->new_y = y+player->pos_y;
+										temp++;
+									}
+							}*/

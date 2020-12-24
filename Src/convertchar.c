@@ -1,0 +1,27 @@
+#include "../Includes/Tank.h"
+
+char convert(MAP map)
+{
+	int i;
+	int j;
+	
+	for (i=0; i<map.x; i++){
+		for(j=0;j<map.y; j++){
+			if (map.Tab[i][j] == 105){
+			map.Tab[i][j] = 179;
+			}
+			if (map.Tab[i][j] == 45){
+			map.Tab[i][j] = 196;
+			}			
+			if (map.Tab[i][j] == 66){
+			map.Tab[i][j] = 177;
+			}
+			if (map.Tab[i][j] == 82){
+			map.Tab[i][j] = 178;
+			}
+			if (map.Tab[i][j] == 76){
+			map.Tab[i][j] = 247;
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+Format :
+nom_du_tank :  hauteur,largeur (canon tourné vers le haut ou bas) , hauteur , largeur (canon tourné vers la droite ou la gauche)
+
+
+tank_nul: 5,5,3,8
+tank_bof: 7,7,5,10
+tankfortaskip : 7,7,6,11

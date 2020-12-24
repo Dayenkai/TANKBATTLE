@@ -1,0 +1,41 @@
+   e------------------------------------------------------------------------------------------------------------------------------------------------------------r
+   i                                                                                                                                                            i
+   i                                                                                                                                                            i
+   i                           BRRRRRRRB           BBBBBBB           BBRRRRRRRBBBBBBBRRBBBBRBB           BBBBBBB           BRBBBBBRRB                           i
+   i                           BBBBRBBBB           BBBBBBB           BBRBBBBBRBBBBBBBRRRBBBRBB           BBBBBBB           BRBBBRRBBB                           i
+   i                           BBBBRBBBB           BBBBBBB           BBRBBBBBRBBBBBBBRBRRRBRBB           BBBBBBB           BRRRRBBBBB                           i
+   i                           BBBBRBBBB           BBBBBBB           BBRRRRRRRBBBBBBBRBBBRRRBB           BBBBBBB           BRBBBRRBBB                           i
+   i                                                                                                                                                            i
+   i                                                                                                                                                            i
+   i                                                                                                                                                            i
+   i                                                                      A      A      A        A                                                              i
+   i                                                              ALLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLA                                                         i
+   i                                                                 A  LLLLLLLLLLLLLL  A                                                                       i
+   i                                                                        A     A                                                                             i
+   i                     BBBBB                               BB                                       BB                              BBBBB                     i
+   i                                                         BB                                       BB                A                                       i
+   i                                      A                            RRRRRRRRRRRRRRRRRRRRRR                                                                   i
+   i                                                                   R                    R                                                                   i
+   i                                                                   R                    R                                                                   i
+   i                                                                   RRRRRRRRRRRRRRRRRRRRRR                                      AAAAAAA                      i
+   i                                                         BB                                       BB                            AAAAA                       i
+   i                      LLLLLLLL                           BB                                       BB                           AAAAAAA                      i
+   i                LLLLLLLLLLL                              BBBBBBBBBB                      BBBBBBBBBBB                                                        i
+   i                      LLLLLLLLLL                           		                                                                                           i
+   i                                                                                                                                                            i
+   i                                                                                                                                                            i
+   i                                                                                                                                                            i
+   i                           BRRRRRRRB           BBBBBBB           BBRRRRRRRBBBBBBBRRBBBBRBB           BBBBBBB           BRBBBBBRRB                           i
+   i                           BBBBRBBBB           BBBBBBB           BBRBBBBBRBBBBBBBRRRBBBRBB           BBBBBBB           BRBBBRRBBB                           i
+   i                           BBBBRBBBB           BBBBBBB           BBRBBBBBRBBBBBBBRBRRRBRBB           BBBBBBB           BRRRRBBBBB                           i
+   i                           BBBBRBBBB           BBBBBBB           BBRRRRRRRBBBBBBBRBBBRRRBB           BBBBBBB           BRBBBRRBBB                           i
+   i                                                                                                                                                            i
+   i                                                                                                                                                            i
+   i                                                                                                                                                            i
+   i              BB                                                                                                                            BB              i
+   i              BB                                                                                                                            BB              i
+   i              BB                                                                                                                            BB              i
+   i       BBBBBBBBB                                                                                                                            BBBBBBBBB       i
+   i                                                                e--------------------------r                                                                i
+   i                                                                i                          i                                                                i
+   z------------------------------------------------------------------------------------------------------------------------------------------------------------k
