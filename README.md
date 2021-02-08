@@ -1,26 +1,25 @@
 # TANKBATTLE
-#TANK BATTLE
 
 #PROGRAMME DEVELOPPE EN C SOUS ENVIRONNEMENT UNIX
-#2018/2019
+2018/2019
 #Authors : Bawilu-Mafuta Beker, 3A ESIEA PARIS
 with Kamalakran Risan, 3A ESIEA PARIS
 
 
 #TANK BATTLE est un jeu de tir du style des Shoot-Em-Up en 2D, jouable via un terminal.
-#Le joueur incarne un tank, par lequel il doit se défendre et défendre un petit oisillon jaune en faisant face à des vagues de tanks ennemis 
-#dans un territoire concu pour les escarmouches. Chaque vague fait apparaître différents types d'ennemis, 
-#laissant le joueur face à une diversité d'agression, lequel devra s'adapter en disposant à sa guise de 
-#plusieurs mode de tirs d'obus. Une fois les vagues détruites, le joueur accède au boss, lequel demeure
-#la dernière passerelle afin de remporter la partie.
+Le joueur incarne un tank, par lequel il doit se défendre et défendre un petit oisillon jaune en faisant face à des vagues de tanks ennemis 
+dans un territoire concu pour les escarmouches. Chaque vague fait apparaître différents types d'ennemis, 
+laissant le joueur face à une diversité d'agression, lequel devra s'adapter en disposant à sa guise de 
+plusieurs mode de tirs d'obus. Une fois les vagues détruites, le joueur accède au boss, lequel demeure
+la dernière passerelle afin de remporter la partie.
 
 
-LANCEMENT DU PROGRAMME :
+#LANCEMENT DU PROGRAMME :
 
 ./Game map Tank-Joueur Tank-ennemi
 
-#Tout ce qui concerne le choix du terrain (map) se trouve dans le dossier "Map" du projet.
-#Le design du tank du joueur est à choisir parmi les véhicules se trouvant dans le dossier "Tanks"
+Tout ce qui concerne le choix du terrain (map) se trouve dans le dossier "Map" du projet.
+Le design du tank du joueur est à choisir parmi les véhicules se trouvant dans le dossier "Tanks"
 
 
 INDICATIONS/PROBLEMES :
@@ -42,5 +41,5 @@ Voici la liste des librairies à se procurer pour assurer un bon fonctionnement 
   -> L'oisillon est de même indestructible, jusqu'à ce que le premier bug soit réglé.
 
 -> Lorsue le jeu est interrompu via un Ctrl+C, Ctrl+Z, la musique en arrière plan ne s'arrête pas en même temps que le processus.
-   #ps -aux | grep "action_music.wav" permet de trouver le pid du process. Vous pouvez ensuite le terminer via un "kill -9 pid_du_process"
+   ps -aux | grep "action_music.wav" permet de trouver le pid du process. Vous pouvez ensuite le terminer via un "kill -9 pid_du_process"
 
