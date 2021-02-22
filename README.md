@@ -38,6 +38,6 @@ Voici la liste des librairies à se procurer pour assurer un bon fonctionnement 
 -> L'ennemi est pour l'instant indestructible, il y a des problèmes dans le programme, corrigés prochainement.
   -> L'oisillon est de même indestructible, jusqu'à ce que le premier bug soit réglé.
 
--> Lorsue le jeu est interrompu via un Ctrl+C, Ctrl+Z, la musique en arrière plan ne s'arrête pas en même temps que le processus.
+-> Lorsque le jeu est interrompu via un Ctrl+C, Ctrl+Z, la musique en arrière plan ne s'arrête pas en même temps que le processus.
    ps -aux | grep "action_music.wav" permet de trouver le pid du process. Vous pouvez ensuite le terminer via un "kill -9 pid_du_process"
 
