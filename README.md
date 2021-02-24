@@ -1,45 +1,41 @@
 # TANKBATTLE
-PROGRAMME DEVELOPPE EN C SOUS ENVIRONNEMENT UNIX
+PROGRAMME DEVELOPED IN C - UNIX ENVIRONMENT
 2018/2019
 Authors : Bawilu-Mafuta Beker, 3A ESIEA PARIS
 with Kamalakran Risan, 3A ESIEA PARIS
 
-TANK BATTLE est un jeu de tir du style des Shoot-Em-Up en 2D, jouable via un terminal.
-Le joueur incarne un tank, par lequel il doit se défendre et défendre un petit oisillon jaune en faisant face à des vagues de tanks ennemis 
-dans un territoire concu pour les escarmouches. Chaque vague fait apparaître différents types d'ennemis, 
-laissant le joueur face à une diversité d'agression, lequel devra s'adapter en disposant à sa guise de 
-plusieurs mode de tirs d'obus. Une fois les vagues détruites, le joueur accède au boss, lequel demeure
-la dernière passerelle afin de remporter la partie.
+TANK BATTLE is a Shoot-Em-Up 2D game, only playable through a terminal.
+You play a tank, your own way by wich one you must protect a little bird and defend yourself against various ennemies, planning attacks in waves, 
+in a map designed for skirmishes to happen, thus you get to have throughout the story mode different shooting modes.
+Once the waves cleared, you'll access a boss, the last obstacle to get over to win the game.
 
 
-# LANCEMENT DU PROGRAMME
+# GAME LAUNCHING
 
 ./Game map Tank-Joueur Tank-ennemi
 
-Tout ce qui concerne le choix du terrain (map) se trouve dans le dossier "Map" du projet.
-Le design du tank du joueur est à choisir parmi les véhicules se trouvant dans le dossier "Tanks"
+Every maps are in the "Map" folder of the project.
+Your Tank appearance is in the "Tanks" folder, you do have the choice to change on your own preference.
 
 
 # INDICATIONS/BUGS :
 
--> Le jeu utilise des caractères non alphanumériques de la table ascii, dont la plupart ne sont pas visible
-via l'encodage standard UTF-8. Il faut rendre donc un encodage de type "Occidental - IBM850" ou similaire dans les paramètres
-du terminal, la seule interface graphique du jeu.
+-> The characters used are non-alphanumeric. You might use a predefined encoding that would not allow to print them correctly, the default encoding being UTF-8.
+You have to change it by switching into the "Occidental - IBM850" encoding, or a similar one in the terminal parameters.
 
--> La taille de la map ne s'adapte pas à la taille de l'écran, il faut aller en full screen afin d'éviter les désagréables décalages d'objets. 
+-> The map size doesn't adjust to the screen, in consequence, you should always go to full screen to avoid some disturbing offsets.
 
--> L'apparition de quelques erreurs peuvent survenir du fait que certaines fonctions utilisent des librairies qui ne sont pas nécessairement installés.
-Voici la liste des librairies à se procurer pour assurer un bon fonctionnement du jeu :
+-> Some error can appear due to game functions that use uninstalled libraries in your system. 
+Here are the libraries that you might not have, necessary to make the game work :
 
-	Librairies sur Ubuntu-Debian :
+	Libraries - Ubuntu-Debian :
 		#- Ncurses (sudo apt-get install libncurses5-dev libncursesw5dev)
 		#- Aplay (sudo apt-get install aplay)
 
--> L'ennemi est pour l'instant indestructible, il y a des problèmes dans le programme, corrigés prochainement.
-  -> L'oisillon est de même indestructible, jusqu'à ce que le premier bug soit réglé.
+-> Unfortunately, the ennemies and the yellow bird somehow are undestructible, I am looking forward to fixing it.
 
--> Lorsque le jeu est interrompu via un Ctrl+C, Ctrl+Z, la musique en arrière plan ne s'arrête pas en même temps que le processus.
-   ps -aux | grep "action_music.wav" permet de trouver le pid du process. Vous pouvez ensuite le terminer via un "kill -9 pid_du_process"
+-> If you try to interrupt the game while playing it, with Ctrl+C or Ctrl+Z, the background music could probably not follow the kill process.
+   ps -aux | grep "action_music.wav" will find the process after what, and you can kill it with the unix command "kill -9 pid_du_process"
    
 UPDATE + FIX SOON !
 
