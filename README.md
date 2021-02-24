@@ -40,4 +40,6 @@ Voici la liste des librairies à se procurer pour assurer un bon fonctionnement 
 
 -> Lorsque le jeu est interrompu via un Ctrl+C, Ctrl+Z, la musique en arrière plan ne s'arrête pas en même temps que le processus.
    ps -aux | grep "action_music.wav" permet de trouver le pid du process. Vous pouvez ensuite le terminer via un "kill -9 pid_du_process"
+   
+UPDATE + FIX SOON !
 
