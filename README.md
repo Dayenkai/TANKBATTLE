@@ -7,7 +7,7 @@ Authors : Bawilu-Mafuta Beker, 3A ESIEA PARIS
 with Kamalakaran Risan, 3A ESIEA PARIS
 
 TANK BATTLE is a Shoot-Em-Up 2D game, only playable through a terminal.
-You play a tank, your own way by wich one you must protect a little bird and defend yourself against various ennemies, planning attacks in waves, 
+You play a tank, your own way to protect a little bird and defend yourself against various ennemies, planning attacks in waves, 
 in a map designed for skirmishes to happen, thus you get to have throughout the story mode different shooting modes.
 Once the waves cleared, you'll access a boss, the last obstacle to get over to win the game.
 
